@@ -1,0 +1,56 @@
+.round_image{
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: none;
+    border-radius: 100px;
+}
+
+.container{
+    width: 1000px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    border: 0.5px solid rgb(177, 170, 170);
+    box-shadow: 5px 5px 10px gray;
+}
+
+.level1{
+border: none;
+box-shadow:0px 0px 5px gray ;
+}
+
+.level2 div h2{
+color: green;
+}
+
+.level2 .box{
+    width: 150px;
+    height: 180px;
+    padding-top: 50px;
+    box-shadow:0px 0px 5px gray;
+}
+
+.last_box{
+    text-align: justify;
+    margin-bottom: 10px;
+    box-shadow:0px 0px 5px gray;
+}
+
+.last_box > h3{
+    text-align: center;
+}
+
+.level2{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: calc((100% - 2 * 10px))/3;
+}
+
+.level3{
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+}
